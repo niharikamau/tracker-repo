@@ -1,0 +1,14 @@
+#nav-bar{
+    background-color: rgba(153, 239, 241, 0.3);
+    padding-top: 10px;
+}
+#side_bar{
+    background-color: rgba(183, 223, 233, 0.2);
+    width: 220px;
+}
+#side_bar_margin{
+    margin-bottom: 0px;
+}
+#low_bar{
+        background-color: rgba(183, 223, 233,0.2);
+}
