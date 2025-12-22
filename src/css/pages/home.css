@@ -1,6 +1,50 @@
-#title_main{ 
+#title_main {
     color: beige;
-    font-family:serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-weight: lighter;
     text-align: center;
+}
+
+.sub_titles {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#todo-input{
+    width: 150px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#todo-button{
+    display: inline;
+}
+#side_bar{
+    background-color: rgba(183, 223, 233, 0.2);
+    width: 220px;
+}
+
+#side_bar_margin{
+    margin-bottom: 0px;
+}
+#low_bar{
+        background-color: rgba(183, 223, 233,0.2);
+}
+
+#right-side-bar{
+    position:absolute;
+    top: 75px;
+    right: 8px;
+    background-color: rgba(183, 223, 233, 0.2);
+    width: 220px;
+    height: 558px;
+
+}
+.task-done{
+    text-decoration: line-through;
+    color: grey;
 }

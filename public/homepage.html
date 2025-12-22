@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homepage</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="/tracker-repo/src/css/index.css">
+    <link rel="icon" href="/tracker-repo/public/assets/title_icon.png">
+
 
 </head>
 
 <body>
-    <center>
-        <header>
-            <h1>Self Tracker</h1> <!--title header confusion-->
-        </header>
-    </center>
+
+    <header class="heading">
+        <h1>Self Tracker</h1>
+        <div id="nav-bar">
+            <div id="nav-content">
+                <a id="nav-buttons" href="/tracker-repo/public/profile.html">Profile</a>
+                <a id="nav-buttons" href="/tracker-repo/public/plan.html">Plan</a>
+                <a id="nav-buttons" href="/tracker-repo/public/plan.html">Personalisation</a>
+                <img src="/tracker-repo/src/assets/images/meme_2.webp" style="height: 35px; border-radius: 50%;">
+            </div>
+            <br>
+        </div>
+    </header>
     <br>
-    <div id="nav-bar">
-        <a href="/tracker-repo/public/profile.html"><button id="nav-buttons">Profile</button></a>
-        <br>
-        <hr id="side_bar_margin">
-    </div>
+
+
     <div id="side_bar">
         <br>
         <h2 style="margin-top: 0px" class="sub_titles">Notes</h2>
@@ -31,7 +38,8 @@
         <hr>
         <h2 class="sub_titles">To do</h2>
         <center>
-            <textarea class=s"sub_texts" style="width: 200px; height: 200px"></textarea>
+            <input type="text" id="todo-input">
+            <button id="todo-button">add task</button>
         </center>
         <br>
         <hr>
@@ -46,16 +54,22 @@
         <hr style="margin-bottom: 0px;">
     </div>
     <div id="low_bar">
-        <br>
-        <h2 style="margin-top: 0px;" class="sub_titles">Timer</h2>
-        <br>
+        <div id="timer">
+            <br>
+            <h2 style="margin-top: 0px;" class="sub_titles">Timer</h2>
+            <br>
+        </div>
         <hr>
         <h2 class="sub_titles">Progress</h2>
         <br>
     </div>
 
+    <div id="right-side-bar">
+        <h2 class="sub_titles">Tasks</h2>
+    </div>
 
 
+ <script src="/tracker-repo/src/js/pages/home.js"></script>
 </body>
 
 </html>

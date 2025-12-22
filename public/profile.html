@@ -10,22 +10,26 @@
 </head>
 
 <body>
-    <center>
-        <header>
-            <h1>Self Tracker</h1> <!--title header confusion-->
+    
+        <header class="heading">
+            <h1>Self Tracker</h1> 
         </header>
-    </center>
-    <br>
+
+    
     <div id="nav-bar">
+        <div id="nav-content">
+        <a id="nav-buttons" href="/tracker-repo/public/homepage.html">
+                Back to homepage </a>
+        </div>
         
-        <a href="/tracker-repo/public/homepage.html"><button id="nav-buttons">
-                back to homepage
-            </button></a>
-        <hr>
+    <br>
     </div>
     <h2>Profile</h2>
-    <img src="/tracker-repo/src/assets/images/meme_2.webp" alt="meme 2 :(" height="200px" style="border-radius: 50%;">
+    <img id ="profile_image"
+     src="/tracker-repo/src/assets/images/meme_2.webp" alt="meme 2 :("
+      height="200px" style="border-radius: 50%;">
     <hr>
+    <input type="file" id="explorer_open" style="display: none;">
     <div id="user_data">
         <table>
             <tbody>
@@ -37,14 +41,19 @@
                 </tr>
                 <tr>
                     <td>Niharika</td>
-                    <td>pradeephaikya</td>
+                    <td>niharikamaurya._</td>
                     <td>kumud123</td>
                     <td>niharika@gmail.com</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <p>currently learning is in progress :)</p>
+    <br>
+    <a href="/tracker-repo/public/index.html"><button>Log out</button></a>
+
+    <p style="color: white;">currently learning is in progress :)</p>
+
+    <script src="/tracker-repo/src/js/pages/profile.js"></script>
 </body>
 
 </html>

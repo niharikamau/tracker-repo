@@ -1,23 +1,44 @@
-#entry-buttons{
-    color: rgb(9, 9, 58);
+#entry-buttons {
+    color: rgb(12, 12, 12);
     background-color: rgba(153, 239, 241, 0.6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-size: smaller;
     border-radius: 10px;
-        border: 1px solid black;
+    border: 1px solid black;
 
     height: 50px;
-    width :216px;
+    width: 216px;
 }
-#nav-buttons{
-     color: rgb(9, 9, 58);
-    background-color: rgba(153, 239, 241, 0.6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#nav-bar{
+    padding-top: 10px;
+        display: inline;
+
+}
+#nav-buttons {
+    color: rgb(229, 229, 229);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-size: smaller;
     border-radius: 10px;
     height: 50px;
-    width :216px;
+    width: 216px;
+    margin-right: 5px;
+
+    
 }
-.sub_titles{
+#nav-content{
+    position: absolute;
+    right: 10px;
+    display: inline;
+}
+
+
+
+#entry-buttons:hover {
+    background-color: rgb(132, 123, 175);
+}
+
+.sub_titles {
     text-align: center;
 }
