@@ -1,0 +1,160 @@
+/* WELCOME SECTION */
+
+.welcome-section{
+    margin-bottom: 2rem;
+}
+
+.welcome-section h1{
+    font-size: 2rem;
+    color: #38bdf8;
+}
+
+.welcome-section p{
+    color: #94a3b8;
+    margin-top: 0.5rem;
+}
+
+/* STATS GRID */
+
+.stats-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+    margin-bottom: 2rem;
+}
+
+.stat-card{
+    text-align: center;
+}
+
+.stat-card h3{
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.stat-card p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #f8fafc;
+}
+
+/* GOALS */
+
+.goals-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.goal-card h3{
+    color: #f8fafc;
+}
+
+.goal-card p{
+    color: #38bdf8;
+    margin-top: 0.5rem;
+}
+
+/* TASKS */
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem;
+    margin-top: 0.5rem;
+
+    background-color: #1e293b;
+    border-radius: 12px;
+}
+
+.task span{
+    color: #e2e8f0;
+}
+
+/* TIMER */
+
+.timer-section{
+    text-align: center;
+}
+
+.timer-display{
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: #38bdf8;
+}
+
+.timer-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.timer-buttons button{
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+
+    background-color: #38bdf8;
+    color: #0f172a;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.timer-buttons button:hover{
+    transform: scale(1.05);
+}
+
+/* PROGRESS */
+
+.progress-item{
+    margin-bottom: 1rem;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+
+    background-color: #0f172a;
+
+    border-radius: 10px;
+
+    margin-top: 0.5rem;
+}
+
+.progress-fill{
+    width: 60%;   /* fake for now */
+    height: 100%;
+
+    background-color: #38bdf8;
+
+    border-radius: 10px;
+}
+
+/* WEEKLY */
+
+.week-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+
+    text-align: center;
+}
+
+.week-grid div{
+    padding: 1rem;
+
+    background-color: #0f172a;
+    border-radius: 10px;
+
+    color: #94a3b8;
+}
+
+/* NOTES */
+
+.notes-section textarea{
+    margin-top: 1rem;
+}

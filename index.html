@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>FocusFlow</h2>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Goals</li>
+                    <li>Tasks</li>
+                    <li>Study Timer</li>
+                    <li>Progress</li>
+                    <li>Notes</li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- WELCOME -->
+            <section class="welcome-section">
+                <h1>Welcome Back, Sona</h1>
+                <p>Stay consistent. Small progress is still progress.</p>
+            </section>
+
+            <!-- STATS -->
+            <section class="stats-section">
+
+                <div class="stat-card">
+                    <h3>Study Hours</h3>
+                    <p>5.5 hrs</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Tasks Done</h3>
+                    <p>12</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Current Streak</h3>
+                    <p>8 Days</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Goals Active</h3>
+                    <p>4</p>
+                </div>
+
+            </section>
+
+            <!-- GOALS -->
+            <section class="goals-section">
+
+                <h2>Goals</h2>
+
+                <div class="goals-container">
+
+                    <div class="goal-card">
+                        <h3>JavaScript Mastery</h3>
+                        <p>60% Complete</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h3>DSA Arrays</h3>
+                        <p>35% Complete</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h3>OOP Concepts</h3>
+                        <p>20% Complete</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- TASKS -->
+            <section class="tasks-section">
+
+                <h2>Today's Tasks</h2>
+
+                <div class="task">
+                    <input type="checkbox">
+                    <span>Complete DOM Project</span>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox">
+                    <span>Solve 15 DSA Questions</span>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox">
+                    <span>Revise CSS Grid</span>
+                </div>
+
+            </section>
+
+            <!-- TIMER -->
+            <section class="timer-section">
+
+                <h2>Study Session</h2>
+
+                <div class="timer-display">
+                    00:00:00
+                </div>
+
+                <div class="timer-buttons">
+                    <button>Start</button>
+                    <button>Pause</button>
+                    <button>Reset</button>
+                </div>
+
+            </section>
+
+            <!-- PROGRESS -->
+            <section class="progress-section">
+
+                <h2>Progress</h2>
+
+                <div class="progress-item">
+                    <p>Web Development</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <p>JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- WEEKLY -->
+            <section class="weekly-section">
+
+                <h2>Weekly Overview</h2>
+
+                <div class="week-grid">
+
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                    <div>Sun</div>
+
+                </div>
+
+            </section>
+
+            <!-- NOTES -->
+            <section class="notes-section">
+
+                <h2>Quick Notes</h2>
+
+                <textarea placeholder="Write notes here..."></textarea>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>

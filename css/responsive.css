@@ -1,0 +1,74 @@
+/* TABLETS */
+
+@media (max-width: 1024px){
+
+    .stats-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .goals-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sidebar{
+        width: 200px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        border-right: none;
+        border-bottom: 1px solid #1f2937;
+    }
+
+    .sidebar nav ul{
+        flex-direction: row;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .main-content{
+        padding: 1rem;
+    }
+
+    .stats-section{
+        grid-template-columns: 1fr;
+    }
+
+    .goals-container{
+        grid-template-columns: 1fr;
+    }
+
+    .week-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 480px){
+
+    .timer-display{
+        font-size: 2rem;
+    }
+
+    .timer-buttons{
+        flex-direction: column;
+    }
+
+    .sidebar nav ul{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,21 @@
+uhh
+multi user try karenge 
+isiliye sign up logic dala
+we can add auth later
+
+can add ai too later - new page (ai help)
+
+can add level of points game rewards -new page (check level)
+
+large planning excel type interface -new page (plan)
+
+icon of setting including, they have differnt pages
+:- profile, personalisation
+
+
+//bugs
+-> empty checkbox
+-> profile pic betterpic
+-> relod hote hi gyab tasks
+
+need more features
