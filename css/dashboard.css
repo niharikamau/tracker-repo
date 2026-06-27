@@ -46,6 +46,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+.goal-card{
+    width:100%;
+    box-sizing:border-box;
+}
 
 .goal-card h3{
     color: #f8fafc;
@@ -247,4 +251,178 @@
     border-left: 4px solid #38bdf8;
 
     color: #f8fafc;
+}
+/* ========================= GOALS ========================= */
+
+.goals-page{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.page-header p{
+    color:#94a3b8;
+    margin-top:.3rem;
+}
+
+#addGoalBtn{
+    background:#38bdf8;
+    border:none;
+    color:#0f172a;
+    padding:.9rem 1.5rem;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.goal-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1rem;
+}
+
+.goal-stat-card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:1.4rem;
+}
+
+.goal-stat-card h3{
+    color:#94a3b8;
+    font-size:.9rem;
+}
+
+.goal-stat-card span{
+    display:block;
+    margin-top:.7rem;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.goal-content{
+    display:grid;
+    grid-template-columns:2fr 340px;
+    gap:2rem;
+}
+
+.left-column{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+#goalContainer,
+#completedGoalContainer{
+    display:flex;
+    flex-direction:column;
+    gap:1.2rem;
+    margin-top:1rem;
+}
+
+.goal-card{
+    background:#1e293b;
+    padding:1.5rem;
+    border-radius:18px;
+}
+
+.goal-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.goal-top p{
+    color:#94a3b8;
+    margin-top:.3rem;
+}
+
+.goal-badge{
+    padding:.3rem .8rem;
+    border-radius:30px;
+    font-size:.8rem;
+    font-weight:600;
+}
+
+.goal-badge.active{
+    background:#22c55e33;
+    color:#22c55e;
+}
+
+.progress-bar{
+    width:100%;
+    height:10px;
+    background:#334155;
+    border-radius:10px;
+    margin:1.2rem 0;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    background:#38bdf8;
+}
+
+.goal-info{
+    display:flex;
+    justify-content:space-between;
+    color:#94a3b8;
+}
+
+.goal-actions{
+    display:flex;
+    gap:.8rem;
+    margin-top:1.5rem;
+}
+
+.goal-actions button{
+    flex:1;
+    padding:.7rem;
+    border:none;
+    border-radius:10px;
+    background:#334155;
+    color:white;
+    cursor:pointer;
+}
+
+.goal-actions button:hover{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
+.right-column{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.side-card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:1.5rem;
+}
+
+.side-card h3{
+    margin-bottom:1rem;
+}
+
+.action-btn{
+    width:100%;
+    padding:.8rem;
+    margin-bottom:.8rem;
+    border:none;
+    border-radius:10px;
+    background:#334155;
+    color:white;
+    cursor:pointer;
+}
+
+.action-btn:hover{
+    background:#38bdf8;
+    color:#0f172a;
 }
